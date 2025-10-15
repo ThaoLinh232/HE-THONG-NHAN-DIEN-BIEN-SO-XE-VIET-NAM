@@ -33,18 +33,8 @@ Mục tiêu chính của hệ thống là tự động phát hiện và đọc c
 ---
 
 ## 🧩 Quy trình hoạt động
-
-```text
 📷 Ảnh đầu vào
-       │
-       ▼
 🔍 Phát hiện vùng chứa biển số xe (YOLOv8)
-       │
-       ▼
 ✂️ Tiền xử lý vùng biển số (OpenCV)
-       │
-       ▼
 🔠 Nhận dạng ký tự bằng CNN
-       │
-       ▼
 🧾 Xuất kết quả: chuỗi biển số, độ tin cậy
